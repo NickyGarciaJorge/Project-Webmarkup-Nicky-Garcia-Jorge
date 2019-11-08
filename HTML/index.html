@@ -6,41 +6,56 @@
 		<meta name= "Poject WM." content= "Jiu Jitsu in Toolenburg">
 		<meta name= "Project WM."  content= "this website will give u information about Jiu Jitsu in Hoofddorp in the neighbourhood Toolenburg">
 		<meta author= "Nicky Garcia Jorge">
+		
+		<link
+		rel = "Stylesheet"
+		type = "text/css"
+		href = "css/Stylesheet.css"
+		/>
+	
 	</head>
 <body>
+
+	<video autoplay loop muted id="Video">
+		<source src="VID/FilmNieuw-Vennep.mp4"	type="video/mp4">
+		<source src="VID/FilmNieuw-Vennep.ogg"	type="video/ogg">
+
+		Oops, video didn't work on your browser.
+	</video>
 	<h1>
 		Toolenburg Hoofddorp
 	</h1>
 	<h2>
-		Leer jezelf nú verdedigen en volg braziliaanse Jiu Jitsu lessen!
+		Sporten in Toolenburg en omgeving.
 	</h2>
-	<nav>
+	<nav id="navigatie">
 		<ul>
-			<li>
+			<li class="list">
+				<a href = "#navigatie">
 				Home
 			</li>
-			<li>
+			<li class="list">
 				<a href = "#maincontent">
 				Hoofddorp
 				</a>
 			</li>
-			<li>
+			<li class="list">
 				<a href = "#secondarycontent">
 				Over Toolenburg
 				</a>
 			</li>
-			<li>
+			<li class="list">
 				<a href = "#sporten">
 				sporten in Toolenburg
 				</a>	
 			</li>
-			<li>
+			<li class="list">
 				<a href = "#reveral">
 				Jiu Jitsu
 				</a>
 			</li>
-			<li>
-				<a href = "#third">
+			<li class="list">
+				<a href = "#contact">
 				Contact
 				</a>
 			</li>
@@ -50,18 +65,17 @@
 	<section id = "maincontent">
 
 		<header> 
-			<id = "TitelH">
+			<class= "Kopjes">
 			Hoofddorp
 		</header>
 		
 		<article>
-			<img src="IMG/Hoofddorp.jpg"
+			<img src="img/Hoofddorp.jpg"
 			title="Hoofddorp"
 			alt= "A picture of Hoofddorp"
 			>
 		
-			<p>
-				<id = "Hoofddorp">
+			<p id = "Hoofddorp">
 				Hoofddorp is een redelijk groot dorp die op dit moment rond de 76.000 inwoners telt. Hoofddorp heeft veel leuke dingen om je dagen bezig te kunnen houden, zo is er de Toolenburgerplas waar mensen vaak grote rondes met hun honden lopen en je met goed weer kan zitten en nog een beetje een strandgevoel kan krijgen. Ook zijn er in Hoofddorp vaak nog evenementen en feesten die worden georganiseerd. Voorbeelden van dit zijn dingen zoals Mud Master, waar een grote groep mensen gezamenlijk een modderige en zware hindernisbaan probeert te overwinnen of bijvoorbeeld Meerlive, wat een wat kleinschaliger feest is in het centrum van hoofddorp, maar de grootste van alle blijft toch Mysteryland.
 			</p>
 		</article>
@@ -69,7 +83,7 @@
 		<article>
 		
 			<header>
-				<id = "TilelM">
+				<class = "Kopjes">
 				Mysteryland
 			</header>
 			
@@ -78,7 +92,7 @@
 				Mysteryland is het grootste elektronische muziekfestival in heel Nederland. Mysteryland wordt al jaren lang georganiseerd in hoofddorp. Er komen jaarlijks mensen van over de hele wereld om Mysteryland te bezoeken, wat laat zien hoe populair het zelfs buiten Nederland is. Mysteryland wordt vooral gepromoot via posters op straat en voor een heel groot deel via social media. Zo kunnen mensen met een groot bereik het festival promoten en zo veel mogelijk mensen over proberen te halen om ook te gaan.
 			</p>
 			
-			<img src="IMG/Mysteryland.jpg"
+			<img src="img/Mysteryland.jpg"
 			title="Mysteryland"
 			alt= "A picture of the festival Mysteryland"
 			>
@@ -92,12 +106,12 @@
 	
 	<section id = "secondarycontent" >
 		<header> 
-			<id = "TitelT">
+			<class = "Kopjes">
 			Toolenburg
 		</header>
 		
 		<article>
-			<img src="IMG/Toolenburgerplas.jpg"
+			<img src="img/Toolenburgerplas.jpg"
 			title="Toolenburgerplas"
 			alt= "A picture of the Toolenburgerplas"
 			>
@@ -111,7 +125,7 @@
 
 			</p>
 			
-			<img src="IMG/Toolenburgbrug.jpg"
+			<img src="img/Toolenburgbrug.jpg"
 			title="Calatravabrug"
 			alt= "One of the three Calatrava bridges"
 			>
@@ -124,10 +138,11 @@
 	
 	<section id = "sporten" >
 		<header>
+			<class= "Kopjes">
 			sporten in Toolenburg
 		</header>
 		<article>
-			<header>
+			<header class="Subkopje">
 				Tien sportclubs in de buurt.
 			</header>
 			<ol>
@@ -135,7 +150,7 @@
 					Health City.
 					<p>
 						Health City is een sportclub die zich vooral bezig houd met het verbeteren van de gezondheid van de mensen. Dit doen ze door middel van het geven van bootcamps, en mensen de mogelijkheid geven om zelf te trainen.
-						<img src="IMG/Sportschool.jpg "  
+						<img src="img/Sportschool.jpg "  
 						title="Sportschool"
 						alt= "A picture of a gym"
 						class= "sportfoto"
@@ -150,7 +165,7 @@
 					VV Uno.
 					<p>
 						VV Uno is een voetbalclub die is ontstaan omdat er te weinig plek was voor kinderen bij andere clubs. De club wil iedereen de kans geven om te kunnen sporten.
-						<img src="IMG/Schieten.jpg"
+						<img src="img/Schieten.jpg"
 						title="Voetbal"
 						alt= "A picture of a goalkeeper shooting the ball"
 						class= "sportfoto"
@@ -165,7 +180,7 @@
 					SV Hoofddorp.
 					<p>
 						SV Hoofddorp is een voetbalclub van een hoog niveau. De club bied zoals elke andere club iedereen de mogelijkheid om lekker te sporten, maar het extra pluspuntje van deze club is het hoge niveau waarop er word gevoetbald en de samenwerkingen met andere nog betere clubs.
-						<img src="IMG/Voetbal.jpg"
+						<img src="img/Voetbal.jpg"
 						title="Voetbal"
 						alt= "A picture of a soccer ball on the pitch"
 						class= "sportfoto"
@@ -180,7 +195,7 @@
 					Club Kops.
 					<p>
 						Club Kops is een vechtsportschool die eigenlijk drie verschillende mogelijkheden aan mensen aanbied. Zo worden er lessen gegeven in conditioneel kickboksen en judo, maar ook worden er lessen gegeven in ouder-kind judo voor ouders die zelf ook graag meedoen met hun kind.
-						<img src="IMG/Vechtsport.png"
+						<img src="img/Vechtsport.png"
 						title="Vechtsport"
 						alt= "A picture of a silouette kicking"
 						class= "sportfoto"
@@ -195,7 +210,7 @@
 					Budo Vereniging Dojo Saikoro.
 					<p>
 						Budo Vereniging Dojo Saikoro is een vechtsportschool waar lessen worden gegeven in karate en jiu jitsu. Naast het leren van zelfverdediging, wordt er ook een grote focus gelegd op het omgaan met de medeleerlingen en het opbouwen van zelfvertrouwen.
-						<img src="IMG/JIU.png"
+						<img src="img/JIU.png"
 						title="Jiu Jitsu"
 						alt= "A picture of a Jiu Jitsu move"
 						class= "sportfoto"
@@ -210,7 +225,7 @@
 					Overbos.
 					<p>
 						Overbos is de derde voetbalclub in de buurt en heeft net al de andere twee club als het voornaamste doel om kinderen gewoon te kunnen laten voetballen. En zoals de andere twee clubs is het daar ook altijd het gezellig en word er ook een focus gelegd op teamgeest en plezier hebben met je teamgenoten.
-						<img src="IMG/Voetbalzak.jpg"
+						<img src="img/Voetbalzak.jpg"
 						title="Zak met voetballen erin"
 						alt= "A picture of a couple of soccer balls"
 						class= "sportfoto"
@@ -225,7 +240,7 @@
 					MHC De Reigers.
 					<p>
 						MHC De Reigers is de enige hockeyclub in Hoofddorp en is dus de enige optie voor mensen die niet buiten Hoofddorp willen gaan. De club heeft vele jeugdteams en een hoop senioren teams, die allemaal kunnen genieten van de evenementen die worden georganiseerd.
-						<img src="IMG/Hockey.jpg"
+						<img src="img/Hockey.jpg"
 						title="Hockey"
 						alt= "A picture of 2 girls playing hockey"
 						class= "sportfoto"
@@ -240,7 +255,7 @@
 					Sportpark Pioniers.
 					<p>
 						Sportpark Pioniers is een honknalclub geveestigd in Hoofddorp. De club bied honkbalmogelijkheden voor jong en oud, en natuurlijk ook voor jongen en voor meiden. De club honkbalt al tientallen jaren op hoog niveau, er is zelfs al meerdere keren meegedaan aan het Ek Honk- en Softbal.
-						<img src="IMG/Honkbal.jpg"
+						<img src="img/Honkbal.jpg"
 						title="Honkbal"
 						alt= "A picture of a baseballplayer running after hitting the ball"
 						class= "sportfoto"
@@ -255,7 +270,7 @@
 					Rugby Club Hawks.
 					<p>
 						Rugby Club Hawks is zoals de naam het al zegt een rugbyclub. Deze club heeft hele duidelijke ambities voor ogen, zo wil de club zich focussen op de jeugd en de leden wat bijbrengen. Ze willen namelijk ervoor zorgen de de kinderen leren over respect, discipline maar natuurlijk ook over kamaraadschap.
-						<img src="IMG/Rugby.jpg"
+						<img src="img/Rugby.jpg"
 						title="Rugby"
 						alt= "A picture of 2 rugby teams trying to get the ball"
 						class= "sportfoto"
@@ -270,7 +285,7 @@
 					HWA-rang Dragon.
 					<p>
 						HWA-rang Dragon is een  waar voornamelijk taekwondo en braziliaanse Jiu Jitsu worden gegeven. Hiermee willen ze bereiken dat de leden weerbaarder worden en zichzelf beter leren verdedigen mocht er iets gebeuren.
-						<img src="IMG/JITSU.jpg"
+						<img src="img/JITSU.jpg"
 						title="Jiu Jitsu"
 						alt= "A picture of brazilian jiu jitsu"
 						class= "sportfoto"
@@ -282,16 +297,57 @@
 					</p>
 				</li>
 			</ol>
+			<footer>
+				Deze lijst met clubs bevat niet alle sportclubs in de omgeven.5
+			</footer>
 		<article>
 	</section>
-	<section id= "Jiu Jitsu">
+	
+	<section id= "reveral">
 		<aside>
-			<header>
-				Jiu Jitsu bij vechtschool HWA-rang Dragon.
+			<header class="Kopjes">
+				Meer informatie over Jiu Jitsu bij vechtschool HWA-rang Dragon.
 			</header>
+			
+			<p>
+				Bij de lessen braziliaanse Jiu Jitsu gegeven op de vechtsportschool HWA-rang Dragon zijn jongeren van boven de 14 en volwassen altijd welkom om deel te nemen aan de lessen. Zoals ook al eerder is aan vinden ze het daar heel belangrijk dat je goed op jezelf kan reflecteren. Maar het geen wat eigenlijk het belangrijkst wordt gevonden is dat de leerlingen mocht een confrontatie toch uit de hand lopen zichzelf kunnen verdedigen.
+			</p>
+			<footer>
+				Voor meer informatie en inschrijvingen bezoek: 
+				<a href= https://www.taekwon.nl/brazilian-jiu-jitsu/> 
+				https://www.taekwon.nl/brazilian-jiu-jitsu/ 
+				</a>
+			</footer>
 		</aside>
 	</section>
 	
+	<form id="contact">
+		<legend class="Kopjes">
+			Contact
+		</legend>
+		<fieldset>	
+			<action="http://witan.nl/inholland/testform.php"> 
+			Naam bezoeker:
+			<input type= "name"
+			name="name"
+			/>
+			
+			email:
+			<input type= "email"
+			name="email"
+			/>
+			
+			bericht:
+			<input type= "message-box"
+			name="message"
+			/>
+			
+			<button>
+			 Verstuur
+			</button>
+			
+		</fieldset>	
+	</form>
 	
 	<footer>
 		&copy; Nicky Garcia Jorge 619307
