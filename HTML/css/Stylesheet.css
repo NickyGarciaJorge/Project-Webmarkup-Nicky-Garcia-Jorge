@@ -1,8 +1,10 @@
 body, html 
 {
 	background-color : #AAABBB;	
-	width: 100%;
+	width: 100% - 50px;
 	height: 100%;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 *{
 	box-sizing: border-box;
@@ -13,15 +15,32 @@ body, html
 h1
 {
 	margin-top: 0px;
+	font-size: 50px;
+	float: center;
+	text-align: center;
 }
 
+h2
+{
+	font-size: 45px;
+	margin-top: 20px;
+	float: center;
+	text-align: center;
+}
+
+#maincontent
+{
+	z-index: 1;
+	margin-top: 200;
+}
 
 #navigatie
 {
-	position: fixed;
-	width: 100%;
-	height: 50px;
-	background-color: #2699FB;
+	width: 85%;
+	height: 80px;
+	background-color: #8899AA;
+	margin-top: 150px;
+	position: absolute;
 }
 
 #lijst
@@ -37,8 +56,7 @@ h1
 	display: block;
 	float: left;
 	width: 20%;
-	text-align: center;
-	line-height: 50px;
+	line-height: 70px;
 }
 
 .navdeel
@@ -52,28 +70,22 @@ h1
 .list:hover
 {
   background-color: #ADD8E6;
+  height: 80px;
 }
 
-#Clubs
+.Hdorp
 {
-	margin: 10px;
-	background-color : #707070;
-	float: left;
-	font-size: 20px;
-	display: vertical-align;
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 40px;
 }
 
 .Kopjes
 {
-	font-weight: bold;
-	font-size: 30px;
-}
 
-.sportfoto
-{
-	width: 200px;
-	height:200px;
-	float: right;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 80px;
 }
 
 #contact
@@ -87,8 +99,105 @@ h1
 	float: left;
 	font-size: 20px;
 }
-#footer
+.footer
 {
 	font-size: 20px;
+	float: left;
+	font-weight: italic;
+	text-align: left;
+	clear: both;
+}
+
+.fotohdorp
+{
+	width: 350px;
+	height: 200px;
 	float: center;
+	margin-left: 200px;
+}
+
+.fotomystery
+{
+	width: 350px;
+	height: 200px;
+	float: center;
+	margin-left: 200px;
+}
+
+#Hoofddorp
+{
+	font-size: 20px;
+	width: 40%;
+	float: left;
+}
+
+#Mysteryland
+{
+	font-size: 20px;
+	width: 40%;
+	float: left;
+}
+
+#Toolenburg
+{
+	font-size: 20px;
+	float: left;
+	width: 40%;
+}
+
+#meertje
+{
+	width: 450px;
+	height: 300px;
+	float: middle;
+	margin-left: 200px;
+}
+
+#brug 
+{
+	width: 450px;
+	height: 300px;
+	float: middle;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+#ClubsA
+{
+	width: 45%;
+	float: left;	
+	margin: 10px;
+	background-color : #8899AA;
+	font-size: 20px;
+	text-align: left;
+}
+
+#ClubsB
+{
+	width: 45%;
+	float: right;
+	margin: 10px;
+	background-color : #8899AA;
+	font-size: 20px;
+	text-align: left;
+}
+
+.Subkopje
+{
+	font-size: 25px;
+	font-weight: italic;
+}
+
+.sportfoto
+{
+	width: 200px;
+	height:200px;
+	float: right;
+	clear: both;
+	margin-left: 5%;
+}
+
+.tien
+{
+	float: left;
 }
