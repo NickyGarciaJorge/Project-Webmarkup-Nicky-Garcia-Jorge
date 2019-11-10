@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap');
+
+@media screen and (min-width: 1280px)
+{
 body, html 
 {
 	background-color : #AAABBB;	
@@ -5,6 +14,7 @@ body, html
 	height: 100%;
 	margin-left: 50px;
 	margin-right: 50px;
+	z-index: 1;
 }
 *{
 	box-sizing: border-box;
@@ -18,6 +28,8 @@ h1
 	font-size: 50px;
 	float: center;
 	text-align: center;
+	font-family: 'Amiri', serif;
+	font-family: 'Roboto Slab', serif; 
 }
 
 h2
@@ -26,6 +38,10 @@ h2
 	margin-top: 20px;
 	float: center;
 	text-align: center;
+	background-color: #BBBBBB;
+	width: 95%;
+	font-family: 'Amiri', serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 #maincontent
@@ -41,6 +57,8 @@ h2
 	background-color: #8899AA;
 	margin-top: 150px;
 	position: absolute;
+	font-family: 'Amiri', serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 #lijst
@@ -63,7 +81,7 @@ h2
 {
 	color: #000;
 	text-decoration: none;
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: bold;
 }
 
@@ -75,9 +93,10 @@ h2
 
 .Hdorp
 {
-	margin-top: 100px;
 	font-weight: bold;
 	font-size: 40px;
+	font-family: 'Vollkorn', serif;
+	font-family: 'Alegreya', serif;
 }
 
 .Kopjes
@@ -86,18 +105,24 @@ h2
 	font-weight: bold;
 	font-size: 40px;
 	margin-top: 80px;
+	font-family: 'Vollkorn', serif;
+	font-family: 'Alegreya', serif;
 }
 
 #contact
 {
 	font-size: 20px;
 	float: left;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
 }
 
 #reveral
 {
 	float: left;
 	font-size: 20px;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
 }
 .footer
 {
@@ -106,6 +131,8 @@ h2
 	font-weight: italic;
 	text-align: left;
 	clear: both;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
 }
 
 .fotohdorp
@@ -129,6 +156,8 @@ h2
 	font-size: 20px;
 	width: 40%;
 	float: left;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
 }
 
 #Mysteryland
@@ -136,6 +165,8 @@ h2
 	font-size: 20px;
 	width: 40%;
 	float: left;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
 }
 
 #Toolenburg
@@ -143,6 +174,8 @@ h2
 	font-size: 20px;
 	float: left;
 	width: 40%;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
 }
 
 #meertje
@@ -162,30 +195,38 @@ h2
 	margin-top: 20px;
 }
 
-#ClubsA
+.ClubsA
 {
 	width: 45%;
 	float: left;	
 	margin: 10px;
-	background-color : #8899AA;
+	background-color : #8899AB;
 	font-size: 20px;
 	text-align: left;
+	list-style-type: none;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
 }
 
-#ClubsB
+.ClubsB
 {
 	width: 45%;
 	float: right;
 	margin: 10px;
-	background-color : #8899AA;
+	background-color : #8899AB;
 	font-size: 20px;
 	text-align: left;
+	list-style-type: none;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
 }
 
 .Subkopje
 {
 	font-size: 25px;
 	font-weight: italic;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
 }
 
 .sportfoto
@@ -200,4 +241,681 @@ h2
 .tien
 {
 	float: left;
+	margin-top: 10px;
+}
+
+#Video
+{
+	z-index: 1;
+	width: 500px;
+	height: 420px;
+	margin-left: 35%;
+}
+
+#reveral
+{
+	font-size: 20px;
+	float: right;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#contacttekst
+{
+	float: left;
+	clear: both;
+	font-size: 20px;
+	background-color: #8899AB;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#button
+{
+	height: 30px;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#sporten
+{
+	float: left;
+}
+
+#cookies
+{
+    position: fixed;
+    background-color: #999AAA;
+    width: 200px;
+	height: 150px;
+	float: center;
+	bottom: 0;
+	text-align: center;
+	line-height: 80px;
+    z-index: 2000;
+}
+
+#cookies input
+{
+	margin-top: 18px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+#cookies input:checked
+{
+	display: none;
+}
+}
+
+@media screen and (max-width: 1279px)
+{
+body, html 
+{
+	background-color : #AAABBB;	
+	width: 100% - 50px;
+	height: 100%;
+	margin-left: 50px;
+	margin-right: 50px;
+	z-index: 1;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	margin-top: 0px;
+	font-size: 50px;
+	float: center;
+	text-align: center;
+	font-family: 'Amiri', serif;
+	font-family: 'Roboto Slab', serif; 
+}
+
+h2
+{
+	font-size: 45px;
+	margin-top: 20px;
+	float: center;
+	text-align: center;
+	background-color: #BBBBBB;
+	width: 95%;
+	font-family: 'Amiri', serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+#maincontent
+{
+	z-index: 1;
+	margin-top: 200;
+}
+
+#navigatie
+{
+	width: 85%;
+	height: 80px;
+	background-color: #8899AA;
+	margin-top: 150px;
+	position: absolute;
+	font-family: 'Amiri', serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+#lijst
+{
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.list
+{	
+	display: block;
+	float: left;
+	width: 20%;
+	line-height: 70px;
+}
+
+.navdeel
+{
+	color: #000;
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.list:hover
+{
+  background-color: #ADD8E6;
+  height: 80px;
+}
+
+.Hdorp
+{
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Vollkorn', serif;
+	font-family: 'Alegreya', serif;
+}
+
+.Kopjes
+{
+	clear: both;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 80px;
+	font-family: 'Vollkorn', serif;
+	font-family: 'Alegreya', serif;
+}
+
+#contact
+{
+	font-size: 20px;
+	float: left;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#reveral
+{
+	float: left;
+	font-size: 20px;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+.footer
+{
+	font-size: 20px;
+	float: left;
+	font-weight: italic;
+	text-align: left;
+	clear: both;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+.fotohdorp
+{
+	width: 350px;
+	height: 200px;
+	float: center;
+	margin-left: 200px;
+}
+
+.fotomystery
+{
+	width: 350px;
+	height: 200px;
+	float: center;
+	margin-left: 200px;
+}
+
+#Hoofddorp
+{
+	font-size: 20px;
+	width: 40%;
+	float: left;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#Mysteryland
+{
+	clear: both;
+	font-size: 20px;
+	width: 40%;
+	float: left;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#Toolenburg
+{
+	font-size: 20px;
+	width: 50%;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#meertje
+{
+	width: 450px;
+	height: 300px;
+	float: right;
+	margin-left: 200px;
+}
+
+#brug 
+{
+	width: 450px;
+	height: 300px;
+	float: left;
+}
+
+.ClubsA
+{
+	width: 65%;
+	float: left;	
+	margin: 10px;
+	background-color : #8899AB;
+	font-size: 20px;
+	text-align: left;
+	list-style-type: none;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+	clear: both;
+}
+
+.ClubsB
+{
+	width: 65%;
+	float: left;
+	margin: 10px;
+	background-color : #8899AB;
+	font-size: 20px;
+	text-align: left;
+	list-style-type: none;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+	clear: both;
+}
+
+.Subkopje
+{
+	font-size: 25px;
+	font-weight: italic;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+.sportfoto
+{
+	width: 200px;
+	height:200px;
+	float: right;
+	clear: both;
+	margin-left: 5%;
+}
+
+.tien
+{
+	float: left;
+	margin-top: 10px;
+}
+
+#Video
+{
+	z-index: 1;
+	width: 500px;
+	height: 420px;
+	margin-left: 35%;
+}
+
+#reveral
+{
+	font-size: 20px;
+	float: right;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#contacttekst
+{
+	float: left;
+	clear: both;
+	font-size: 20px;
+	background-color: #8899AB;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#button
+{
+	height: 30px;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#sporten
+{
+	float: left;
+}
+
+#cookies
+{
+    position: fixed;
+    background-color: #999AAA;
+    width: 200px;
+	height: 150px;
+	float: center;
+	bottom: 0;
+	text-align: center;
+	line-height: 80px;
+    z-index: 2000;
+}
+
+#cookies input
+{
+	margin-top: 18px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+#cookies input:checked
+{
+	display: none;
+}
+}
+
+@media screen and (max-width: 480px)
+{
+body, html 
+{
+	background-color : #AAABBB;	
+	width: 100% ;
+	height: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+	z-index: 1;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	margin-top: 0px;
+	font-size: 30px;
+	float: center;
+	text-align: center;
+	font-family: 'Amiri', serif;
+	font-family: 'Roboto Slab', serif; 
+}
+
+h2
+{
+	font-size: 25px;
+	margin-top: 20px;
+	float: center;
+	text-align: center;
+	background-color: #BBBBBB;
+	width: 95%;
+	font-family: 'Amiri', serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+#maincontent
+{
+	z-index: 1;
+	margin-top: 200;
+}
+
+#navigatie
+{
+	width: 85%;
+	height: 80px;
+	background-color: #8899AA;
+	margin-top: 130px;
+	position: absolute;
+	font-family: 'Amiri', serif;
+	font-family: 'Roboto Slab', serif;
+	clear: both;
+}
+
+#lijst
+{
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.list
+{	
+	display: block;
+	float: left;
+	width: 20%;
+	line-height: 70px;
+}
+
+.navdeel
+{
+	color: #000;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.list:hover
+{
+  background-color: #ADD8E6;
+  height: 80px;
+}
+
+.Hdorp
+{
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Vollkorn', serif;
+	font-family: 'Alegreya', serif;
+}
+
+.Kopjes
+{
+	clear: both;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 80px;
+	font-family: 'Vollkorn', serif;
+	font-family: 'Alegreya', serif;
+}
+
+#contact
+{
+	font-size: 20px;
+	float: left;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#reveral
+{
+	float: left;
+	font-size: 20px;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+.footer
+{
+	font-size: 20px;
+	float: left;
+	font-weight: italic;
+	text-align: left;
+	clear: both;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+.fotohdorp
+{
+	width: 350px;
+	height: 200px;
+	float: left;
+	margin-left: 200px;
+}
+
+.fotomystery
+{
+	width: 350px;
+	height: 200px;
+	float: left;
+	margin-left: 200px;
+	clear: both;
+}
+
+#Hoofddorp
+{
+	font-size: 20px;
+	width: 40%;
+	float: left;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#Mysteryland
+{
+	clear: both;
+	font-size: 20px;
+	width: 40%;
+	float: left;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#Toolenburg
+{
+	font-size: 20px;
+	width: 50%;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#meertje
+{
+	width: 450px;
+	height: 300px;
+	float: right;
+	margin-left: 200px;
+}
+
+#brug 
+{
+	width: 450px;
+	height: 300px;
+	float: left;
+}
+
+.ClubsA
+{
+	width: 65%;
+	float: left;	
+	margin: 10px;
+	background-color : #8899AB;
+	font-size: 20px;
+	text-align: left;
+	list-style-type: none;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+	clear: both;
+}
+
+.ClubsB
+{
+	width: 65%;
+	float: left;
+	margin: 10px;
+	background-color : #8899AB;
+	font-size: 20px;
+	text-align: left;
+	list-style-type: none;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+	clear: both;
+}
+
+.Subkopje
+{
+	font-size: 25px;
+	font-weight: italic;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+.sportfoto
+{
+	width: 200px;
+	height:200px;
+	float: right;
+	clear: both;
+	margin-left: 5%;
+}
+
+.tien
+{
+	float: left;
+	margin-top: 10px;
+}
+
+#Video
+{
+	z-index: 1;
+	width: 400px;
+	height: 320px;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+
+#reveral
+{
+	font-size: 20px;
+	float: right;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#contacttekst
+{
+	float: left;
+	clear: both;
+	font-size: 20px;
+	background-color: #8899AB;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#button
+{
+	height: 30px;
+	font-family: 'Gentium Basic', serif;
+	font-family: 'Old Standard TT', serif;
+}
+
+#sporten
+{
+	float: left;
+}
+
+#cookies
+{
+    position: fixed;
+    background-color: #999AAA;
+    width: 200px;
+	height: 150px;
+	float: center;
+	bottom: 0;
+	text-align: center;
+	line-height: 80px;
+    z-index: 2000;
+}
+
+#cookies input
+{
+	margin-top: 18px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+#cookies input:checked
+{
+	display: none;
+}
 }
