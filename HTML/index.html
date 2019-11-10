@@ -1,20 +1,19 @@
 <!Doctype html>
-<html lang="en , nl">
+<html lang="nl">
 	<head>
 		<title> Index html </title>
 		<meta charset="UTf-8"> 
 		<meta name= "Poject WM." content= "Jiu Jitsu in Toolenburg">
 		<meta name= "Project WM."  content= "this website will give u information about Jiu Jitsu in Hoofddorp in the neighbourhood Toolenburg">
-		<meta author= "Nicky Garcia Jorge">
+		<meta property = "Nicky Garcia Jorge" content= "Project Web Markup" >
 	
-	</head>
-	
-	<link
+		<link
 		rel = "Stylesheet"
 		type = "text/css"
 		href = "css/Stylesheet.css"
 		/>
 		
+	</head>		
 <body>
 	
 	<nav id="navigatie">
@@ -155,7 +154,7 @@
 						class= "sportfoto"
 						>
 						
-						<a href= https://www.healthcity.nl/nl/locaties/hoofddorp-toolenburg/ id="link">
+						<a href= https://www.healthcity.nl/nl/locaties/hoofddorp-toolenburg/ class="link">
 						Website Health City.
 						</a>
 					</p>
@@ -170,7 +169,7 @@
 						class= "sportfoto"
 						>
 						
-						<a href= https://www.vvuno.nl// id="link">
+						<a href= https://www.vvuno.nl// class="link">
 						Website VV Uno.
 						</a>	
 					</p>
@@ -185,7 +184,7 @@
 						class= "sportfoto"
 						>
 						
-						<a href= https://www.svhoofddorp.nl/ id="link">
+						<a href= https://www.svhoofddorp.nl/ class="link">
 						Website SV Hoofddorp.
 						</a>	
 					</p>
@@ -200,7 +199,7 @@
 						class= "sportfoto"
 						>
 						
-						<a href= https://clubkops.nl/ id="link">
+						<a href= https://clubkops.nl/ class="link">
 						Website Club Kops.
 						</a>	
 					</p>
@@ -215,7 +214,7 @@
 						class= "sportfoto"
 						>
 						
-						<a href= http://www.saikoro.nl/ id="link">
+						<a href= http://www.saikoro.nl/ class="link">
 						Website Budo Vereniging Dojo Saikoro.
 						</a>	
 					</p>
@@ -230,7 +229,7 @@
 						class= "sportfoto"
 						>
 						
-						<a href= https://www.overbos.nl/ id="link">
+						<a href= https://www.overbos.nl/ class="link">
 						Website Overbos.
 						</a>	
 					</p>
@@ -245,7 +244,7 @@
 						class= "sportfoto"
 						>
 						
-						<a href= https://www.mhcdereigers.nl/site/Default.asp id="link">
+						<a href= https://www.mhcdereigers.nl/site/Default.asp class="link">
 						Website MHC De Reigers.
 						</a>	
 					</p>
@@ -260,7 +259,7 @@
 						class= "sportfoto"
 						>
 						
-						<a href= https://www.hoofddorp-pioniers.nl/ id="link">
+						<a href= https://www.hoofddorp-pioniers.nl/ class="link">
 						Website Sportpark Pioniers.
 						</a>
 					</p>
@@ -275,7 +274,7 @@
 						class= "sportfoto"
 						>
 						
-						<a href= https://rchawks.nl/ id="link">
+						<a href= https://rchawks.nl/ class="link">
 						Website Rugby Club Hawks.
 						</a>
 					</p>
@@ -290,7 +289,7 @@
 						class= "sportfoto"
 						>
 						
-						<a href= https://www.taekwon.nl/ id="link">
+						<a href= https://www.taekwon.nl/ class="link">
 						Website HWA-rang Dragon.
 						</a>
 					</p>
@@ -299,7 +298,7 @@
 			<footer class="footer">
 				Deze lijst met clubs bevat niet alle sportclubs in de omgeven.
 			</footer>
-		<article>
+		</article>
 	</section>
 	
 	<section id= "reveral">
@@ -321,37 +320,41 @@
 	</section>
 	
 	<form id="contact">
-		<legend class="Kopjes">
+		<header class="Kopjes">
 			Contact
-		</legend>
-		<fieldset id="contacttekst">	
-			<action="http://witan.nl/inholland/testform.php"> 
-			Naam bezoeker:
-			<input type= "name"
-			name="name"
-			/>
+		</header>
+			<fieldset id="contacttekst">	
 			
-			email:
-			<input type= "email"
-			name="email"
-			/>
+				<legend>
+					Contact
+				</legend>
+
+				Naam bezoeker:
+				<input type= "text"
+				name="name"
+				/>
 			
-			bericht:
-			<input type= "message-box"
-			name="message"
-			id= "bericht"
-			/>
+				email:
+				<input type= "email"
+				name="email"
+				/>
 			
-			<button id="button">
-			 Verstuur
-			</button>
+				bericht:
+				<input type= "text"
+				name="message"
+				id= "bericht"
+				/>
 			
-		</fieldset>	
+				<button id="button">
+				Verstuur
+				</button>
+			
+			</fieldset>	
 	</form>
 	
 	<footer class="footer">
 		&copy; Nicky Garcia Jorge 619307
-	<footer>
+	</footer>
 	
 	<span id="cookies">
 		<input type="checkbox"
